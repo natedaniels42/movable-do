@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#keyboard {
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.key {
+  fill: white;
+  stroke: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.key:hover {
+  fill: lightgrey;
+}
+
+.black {
+  fill: black;
+}
+
+#solfege-box {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.syllable {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+.syllable > * {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
