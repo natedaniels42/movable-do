@@ -5,7 +5,11 @@
 }
 
 #keyboard {
-  margin: 0 auto;
+  display: flex;
+}
+
+#keyboard > * {
+  margin: auto;
 }
 
 .key {
@@ -34,6 +38,39 @@
   border-radius: 10%;
 }
 
-.syllable > * {
-  justify-content: center;
+.syllable > h2 {
+  margin: auto;
+  font-size: 2rem;
+}
+
+#do {
+  background-color: red;
+}
+
+#re {
+  background-color: orange;
+}
+
+#mi {
+  background-color: yellow;
+}
+
+#fa {
+  background-color: green;
+}
+
+#sol {
+  background-color: blue;
+}
+
+#la {
+  background-color: indigo;
+}
+
+#ti {
+  background-color: violet;
+}
+
+#do2 {
+  background-color: yellow;
 }
