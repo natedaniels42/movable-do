@@ -7,9 +7,9 @@ const Keyboard = (props) => {
     return (
         <div id="keyboard">
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-            width="100%" height="50%" viewBox="0 0 600.000000 378.000000"
+            width="100%" height="50%" viewBox="0 0 600.000000 228.000000"
             preserveAspectRatio="xMidYMid meet">
-                <g transform="translate(0.000000,378.000000) scale(0.100000,-0.100000)"
+                <g transform="translate(0.000000,228.000000) scale(0.100000,-0.100000)"
                 fill="#000000" stroke="none">
                     <path onClick={handleKeyClick} className="key" id="c-key" d="M 10 20 L 10 2020 L 340 2020 L 340 1020 L 460 1020 L 460 20 L 10 20"></path>
                     <path onClick={handleKeyClick} className="black key" id="d-flat-key" d="M 340 1020 L 580 1020 L 580 2020 L 340 2020 L 340 1020"></path>
