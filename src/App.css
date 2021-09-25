@@ -6,10 +6,15 @@
 
 #keyboard {
   display: flex;
+  flex-direction: column;
 }
 
 #keyboard > * {
   margin: auto;
+}
+
+#note {
+  font-size: 4rem;
 }
 
 .key {
