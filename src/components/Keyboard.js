@@ -28,7 +28,7 @@ const Keyboard = (props) => {
                 </g>
             </svg>
             <p id="note">{current.name}</p>
-            <button onClick={handleClick}>click<audio id="audio" src="gflat3.mp4" autoPlay></audio></button>
+            <audio id="audio" src="c3.m4a" controls></audio>
         </div>
     )
 }
