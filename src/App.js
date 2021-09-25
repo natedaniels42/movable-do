@@ -9,6 +9,7 @@ const App = () => {
   
   const handleKeyClick = ({ target }) => {
     setCurrent(keys[target.id]);
+    new Audio(keys[target.id].note).play();
   }
 
   return (

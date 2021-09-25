@@ -3,11 +3,11 @@ import React, { useState } from 'react';
 import '../App.css';
 
 const Keyboard = (props) => {    
-    const { handleKeyClick } = props;
+    const { handleKeyClick, current } = props;
     return (
         <div id="keyboard">
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-            width="600.000000pt" height="378.000000pt" viewBox="0 0 600.000000 378.000000"
+            width="600.000000pt" height="278.000000pt" viewBox="0 0 600.000000 378.000000"
             preserveAspectRatio="xMidYMid meet">
                 <g transform="translate(0.000000,378.000000) scale(0.100000,-0.100000)"
                 fill="#000000" stroke="none">
@@ -25,7 +25,7 @@ const Keyboard = (props) => {
                     <path onClick={handleKeyClick} className="key" id="b-key" d="M 2710 20 L 3160 20 L 3160 2020 L 2830 2020 L 2830 1020 L 2710 1020 L 2710 20"></path>
                 </g>
             </svg>
-            <p id="note"></p>
+            <p id="note">{current.name}</p>
         </div>
     )
 }
