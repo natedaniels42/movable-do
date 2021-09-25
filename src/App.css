@@ -73,7 +73,7 @@ html {
   background-color: rgb(211, 174, 106);
 }
 
-#mi {
+#mi, #me {
   background-color: rgb(233, 233, 142);
 }
 
@@ -85,11 +85,11 @@ html {
   background-color: rgb(151, 151, 231);
 }
 
-#la {
+#la, #le {
   background-color: rgb(197, 144, 235);
 }
 
-#ti {
+#ti, #ta {
   background-color: rgb(240, 152, 240);
 }
 

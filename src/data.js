@@ -12,6 +12,10 @@ const keys = {
                 name: 'D',
                 note: 'd3.mp3'
             },
+            me: {
+                name: 'E\u266D',
+                note: 'eflat3.mp3'
+            },
             mi: {
                 name: 'E',
                 note: 'e3.mp3'
@@ -24,9 +28,17 @@ const keys = {
                 name: 'G',
                 note: 'g3.mp3'
             },
+            le: {
+                name: 'A\u266D',
+                note: 'aflat3.mp3'
+            },
             la: {
                 name: 'A',
                 note: 'a3.mp3'
+            },
+            ta: {
+                name: 'B\u266D',
+                note: 'bflat3.mp3'
             },
             ti: {
                 name: 'B',
@@ -51,6 +63,10 @@ const keys = {
                 name: 'D\u266F/E\u266D',
                 note: 'eflat3.mp3'
             },
+            me: {
+                name: 'E/F\u266D',
+                note: 'e3.mp3'
+            },
             mi: {
                 name: 'E\u266F/F',
                 note: 'f3.mp3'
@@ -63,9 +79,17 @@ const keys = {
                 name: 'G\u266F/A\u266D',
                 note: 'aflat3.mp3'
             },
+            le: {
+                name: 'A/B\u266D\u266D',
+                note: 'a3.mp3'
+            },
             la: {
                 name: 'A\u266F/B\u266D',
                 note: 'bflat3.mp3'
+            },
+            ta: {
+                name: 'B/C\u266D',
+                note: 'b3.mp3'
             },
             ti: {
                 name: 'B\u266F/C',
@@ -90,6 +114,10 @@ const keys = {
                 name: 'E',
                 note: 'e3.mp3'
             },
+            me: {
+                name: 'F',
+                note: 'f3.mp3'
+            },
             mi: {
                 name: 'F\u266F',
                 note: 'gflat3.mp3'
@@ -102,9 +130,17 @@ const keys = {
                 name: 'A',
                 note: 'a3.mp3'
             },
+            le: {
+                name: 'B\u266D',
+                note: 'bflat3.mp3'
+            },
             la: {
                 name: 'B',
                 note: 'b3.mp3'
+            },
+            ta: {
+                name: 'C',
+                note: 'c4.mp3'
             },
             ti: {
                 name: 'C\u266F',
@@ -129,6 +165,10 @@ const keys = {
                 name: 'F',
                 note: 'f3.mp3'
             },
+            me: {
+                name: 'G\u266D',
+                note: 'gflat3.mp3'
+            },
             mi: {
                 name: 'G',
                 note: 'g3.mp3'
@@ -141,9 +181,17 @@ const keys = {
                 name: 'B\u266D',
                 note: 'bflat3.mp3'
             },
+            le: {
+                name: 'C\u266D',
+                note: 'b3.mp3'
+            },
             la: {
                 name: 'C',
                 note: 'c4.mp3'
+            },
+            ta: {
+                name: 'D\u266D',
+                note: 'dflat4.mp3'
             },
             ti: {
                 name: 'D',
@@ -168,6 +216,10 @@ const keys = {
                 name: 'F\u266F',
                 note: 'gflat3.mp3'
             },
+            me: {
+                name: 'G',
+                note: 'g3.mp3'
+            },
             mi: {
                 name: 'G\u266F',
                 note: 'aflat3.mp3'
@@ -180,9 +232,17 @@ const keys = {
                 name: 'B',
                 note: 'b3.mp3'
             },
+            le: {
+                name: 'C',
+                note: 'c4.mp3'
+            },
             la: {
                 name: 'C\u266F',
                 note: 'dflat4.mp3'
+            },
+            ta: {
+                name: 'D',
+                note: 'd4.mp3'
             },
             ti: {
                 name: 'D\u266F',
@@ -207,6 +267,10 @@ const keys = {
                 name: 'G',
                 note: 'g3.mp3'
             },
+            me: {
+                name: 'A\u266D',
+                note: 'aflat3.mp3'
+            },
             mi: {
                 name: 'A',
                 note: 'a3.mp3'
@@ -219,9 +283,17 @@ const keys = {
                 name: 'C',
                 note: 'c4.mp3'
             },
+            le: {
+                name: 'D\u266D',
+                note: 'dflat4.mp3'
+            },
             la: {
                 name: 'D',
                 note: 'd4.mp3'
+            },
+            ta: {
+                name: 'E\u266D',
+                note: 'eflat4.mp3'
             },
             ti: {
                 name: 'E',
@@ -246,6 +318,10 @@ const keys = {
                 name: 'G\u266F/A\u266D',
                 note: 'aflat3.mp3'
             },
+            me: {
+                name: 'A/B\u266D\u266D',
+                note: 'a3.mp3'
+            },
             mi: {
                 name: 'A\u266F/B\u266D',
                 note: 'bflat3.mp3'
@@ -258,9 +334,17 @@ const keys = {
                 name: 'C\u266F/D\u266D',
                 note: 'dflat4.mp3'
             },
+            le: {
+                name: 'D/E\u266D\u266D',
+                note: 'd4.mp3'
+            },
             la: {
                 name: 'D\u266F/E\u266D',
                 note: 'eflat4.mp3'
+            },
+            ta: {
+                name: 'E/F\u266D',
+                note: 'e4.mp3'
             },
             ti: {
                 name: 'E\u266F/F',
@@ -285,6 +369,10 @@ const keys = {
                 name: 'A',
                 note: 'a3.mp3'
             },
+            me: {
+                name: 'B\u266D',
+                note: 'bflat3.mp3'
+            },
             mi: {
                 name: 'B',
                 note: 'b3.mp3'
@@ -297,9 +385,17 @@ const keys = {
                 name: 'D',
                 note: 'd4.mp3'
             },
+            le: {
+                name: 'E\u266D',
+                note: 'eflat4.mp3'
+            },
             la: {
                 name: 'E',
                 note: 'e4.mp3'
+            },
+            ta: {
+                name: 'F',
+                note: 'f4.mp3'
             },
             ti: {
                 name: 'F\u266F',
@@ -324,6 +420,10 @@ const keys = {
                 name: 'B\u266D',
                 note: 'bflat3.mp3'
             },
+            me: {
+                name: 'C\u266D',
+                note: 'b3.mp3'
+            },
             mi: {
                 name: 'C',
                 note: 'c4.mp3'
@@ -336,9 +436,17 @@ const keys = {
                 name: 'E\u266D',
                 note: 'eflat4.mp3'
             },
+            le: {
+                name: 'F\u266D',
+                note: 'e4.mp3'
+            },
             la: {
                 name: 'F',
                 note: 'f4.mp3'
+            },
+            ta: {
+                name: 'G\u266D',
+                note: 'gflat4.mp3'
             },
             ti: {
                 name: 'G',
@@ -363,6 +471,10 @@ const keys = {
                 name: 'B',
                 note: 'b3.mp3'
             },
+            me: {
+                name: 'C',
+                note: 'c4.mp3'
+            },
             mi: {
                 name: 'C\u266F',
                 note: 'dflat4.mp3'
@@ -375,9 +487,17 @@ const keys = {
                 name: 'E',
                 note: 'e4.mp3'
             },
+            le: {
+                name: 'F',
+                note: 'f4.mp3'
+            },
             la: {
                 name: 'F\u266F',
                 note: 'gflat4.mp3'
+            },
+            ta: {
+                name: 'G',
+                note: 'g4.mp3'
             },
             ti: {
                 name: 'G\u266F',
@@ -402,6 +522,10 @@ const keys = {
                 name: 'C',
                 note: 'c4.mp3'
             },
+            me: {
+                name: 'D\u266D',
+                note: 'dflat4.mp3'
+            },
             mi: {
                 name: 'D',
                 note: 'd4.mp3'
@@ -414,9 +538,17 @@ const keys = {
                 name: 'F',
                 note: 'f4.mp3'
             },
+            le: {
+                name: 'G\u266D',
+                note: 'gflat4.mp3'
+            },
             la: {
                 name: 'G',
                 note: 'g4.mp3'
+            },
+            ta: {
+                name: 'A\u266D',
+                note: 'aflat4.mp3'
             },
             ti: {
                 name: 'A',
@@ -441,6 +573,10 @@ const keys = {
                 name: 'C\u266F/D\u266D',
                 note: 'dflat4.mp3'
             },
+            me: {
+                name: 'D/E\u266D\u266D',
+                note: 'd4.mp3'
+            },
             mi: {
                 name: 'D\u266F/E\u266D',
                 note: 'eflat4.mp3'
@@ -453,9 +589,17 @@ const keys = {
                 name: 'F\u266F/G\u266D',
                 note: 'gflat4.mp3'
             },
+            le: {
+                name: 'G/A\u266D\u266D',
+                note: 'g4.mp3'
+            },
             la: {
                 name: 'G\u266F/A\u266D',
                 note: 'aflat4.mp3'
+            },
+            ta: {
+                name: 'A/B\u266D\u266D',
+                note: 'a4.mp3'
             },
             ti: {
                 name: 'A\u266F/B\u266D',
