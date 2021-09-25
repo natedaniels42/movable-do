@@ -1,5 +1,5 @@
-const keys = [
-    {
+const keys = {
+    'c-key': {
         id: 'c-key',
         name: 'C',
         note: 'c3.m4a',
@@ -38,7 +38,7 @@ const keys = [
             }
         }
     },
-    {
+    'd-flat-key': {
         id: 'd-flat-key',
         name: 'C\u266F/D\u266D',
         note: 'dflat3.m4a',
@@ -77,7 +77,7 @@ const keys = [
             }
         }
     },
-    {
+    'd-key': {
         id: 'd-key',
         name: 'D',
         note: 'd3.m4a',
@@ -116,7 +116,7 @@ const keys = [
             }
         }
     },
-    {
+    'e-flat-key': {
         id: 'e-flat-key',
         name: 'E\u266D',
         note: 'eflat3.m4a',
@@ -155,7 +155,7 @@ const keys = [
             }
         }
     },
-    {
+    'e-key': {
         id: 'e-key',
         name: 'E',
         note: 'e3.m4a',
@@ -194,7 +194,7 @@ const keys = [
             }
         }
     },
-    {
+    'f-key': {
         id: 'f-key',
         name: 'F',
         note: 'f3.m4a',
@@ -233,7 +233,7 @@ const keys = [
             }
         }
     },
-    {
+    'g-flat-key': {
         id: 'g-flat-key',
         name: 'F\u266F/G\u266D',
         note: 'gflat3.m4a',
@@ -272,7 +272,7 @@ const keys = [
             }
         }
     },
-    {
+    'g-key': {
         id: 'g-key',
         name: 'G',
         note: 'g3.m4a',
@@ -311,7 +311,7 @@ const keys = [
             }
         }
     },
-    {
+    'a-flat-key': {
         id: 'a-flat-key',
         name: 'A\u266D',
         note: 'aflat3.m4a',
@@ -350,7 +350,7 @@ const keys = [
             }
         }
     },
-    {
+    'a-key': {
         id: 'a-key',
         name: 'A',
         note: 'a3.m4a',
@@ -389,7 +389,7 @@ const keys = [
             }
         }
     },
-    {
+    'b-flat-key': {
         id: 'b-flat-key',
         name: 'B\u266D',
         note: 'bflat3.m4a',
@@ -428,7 +428,7 @@ const keys = [
             }
         }
     },
-    {
+    'b-key': {
         id: 'b-key',
         name: 'B/C\u266D',
         note: 'b3.m4a',
@@ -467,4 +467,6 @@ const keys = [
             }
         }
     }
-]
+}
+
+export default keys;
