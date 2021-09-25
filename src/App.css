@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  font-size: 16px;
+}
+
 #keyboard {
   display: flex;
   flex-direction: column;
@@ -84,7 +88,11 @@
   background-color: rgb(231, 120, 120);
 }
 
-@media screen {
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 12px;
+  }
+
   .syllable {
     display: flex;
     flex-direction: column;
