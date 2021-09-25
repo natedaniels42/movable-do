@@ -8,8 +8,17 @@ const App = () => {
   const [current, setCurrent] = useState(keys['c-key']);
   
   const handleKeyClick = ({ target }) => {
+    const pianoKeys = document.getElementsByClassName('key');
+    for (let i = 0; i <= 11; i++) {
+      if (pianoKeys[i].getAttribute('class').includes('black')) {
+        pianoKeys[i].style.fill = 'black';
+      } else {
+        pianoKeys[i].style.fill = 'white';
+      }
+    }
     setCurrent(keys[target.id]);
     new Audio(keys[target.id].note).play();
+    target.style.fill = 'lightgrey';
   }
 
   return (
