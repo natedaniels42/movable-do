@@ -37,6 +37,10 @@ html {
   fill: black;
 }
 
+.default {
+  fill: lightgrey;
+}
+
 #solfege-box {
   display: flex;
   justify-content: space-between;
@@ -44,9 +48,9 @@ html {
 
 .syllable {
   display: flex;
-  width: 100px;
+  width: 12.5%;
   height: 100px;
-  max-width: 12.5;
+  max-width: 12.5%;
   border: 1px solid black;
   border-radius: 10%;
   cursor: pointer;
@@ -60,8 +64,6 @@ html {
   margin: auto;
   font-size: 2rem;
 }
-
-
 
 #do {
   background-color: rgb(231, 120, 120);
