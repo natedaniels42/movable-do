@@ -3,9 +3,6 @@ import '../App.css';
 const Keyboard = (props) => {    
     const { handleKeyClick, current } = props;
 
-    const handleClick = () => {
-        document.getElementById('audio').setAttribute('src', 'g4.m4a');
-    }
     return (
         <div id="keyboard">
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +25,6 @@ const Keyboard = (props) => {
                 </g>
             </svg>
             <p id="note">{current.name}</p>
-            <audio id="audio" src="c3.m4a" controls></audio>
         </div>
     )
 }
