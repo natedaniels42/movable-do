@@ -15,8 +15,8 @@ const App = () => {
     <div className="App">
       <h1>Movable Do</h1>
       <p>Click a key on the keyboard to set your "Do"</p>
-      <Keyboard handleKeyClick={handleKeyClick}/>
-      <Solfege />
+      <Keyboard handleKeyClick={handleKeyClick} current={current} />
+      <Solfege current={current} />
     </div>
   );
 }
