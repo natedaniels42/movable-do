@@ -6,6 +6,8 @@
 
 html {
   font-size: 16px;
+  font-family: 'Gluten', cursive;
+  font-weight: 300;
 }
 
 #keyboard {
