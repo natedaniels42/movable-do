@@ -50,34 +50,43 @@
   font-size: 2rem;
 }
 
+
+
 #do {
-  background-color: red;
+  background-color: rgb(231, 120, 120);
 }
 
 #re {
-  background-color: orange;
+  background-color: rgb(211, 174, 106);
 }
 
 #mi {
-  background-color: yellow;
+  background-color: rgb(233, 233, 142);
 }
 
 #fa {
-  background-color: green;
+  background-color: rgb(125, 224, 125);
 }
 
 #sol {
-  background-color: blue;
+  background-color: rgb(151, 151, 231);
 }
 
 #la {
-  background-color: indigo;
+  background-color: rgb(197, 144, 235);
 }
 
 #ti {
-  background-color: violet;
+  background-color: rgb(240, 152, 240);
 }
 
 #do2 {
-  background-color: red;
+  background-color: rgb(231, 120, 120);
+}
+
+@media screen {
+  .syllable {
+    display: flex;
+    flex-direction: column;
+  }
 }
