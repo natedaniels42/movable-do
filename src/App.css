@@ -107,3 +107,9 @@ html {
     flex-direction: column;
   }
 }
+
+@media screen and (orientation: landscape) {
+  html {
+    height: 100%;
+  }
+}
