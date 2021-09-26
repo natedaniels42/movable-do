@@ -110,6 +110,6 @@ html {
 
 @media screen and (orientation: landscape) {
   html {
-    height: 100%;
+    height: 50%;
   }
 }
