@@ -10,10 +10,15 @@ html {
   font-weight: 300;
 }
 
+#main-container {
+  display: flex;
+  height: 100%;
+}
+
 #keyboard {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 50%;
 }
 
 #keyboard > * {
@@ -43,14 +48,13 @@ html {
 
 #solfege-box {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .syllable {
   display: flex;
-  width: 12.5%;
+  width: 100px;
   height: 100px;
-  max-width: 12.5%;
   border: 1px solid black;
   border-radius: 10%;
   cursor: pointer;
