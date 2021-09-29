@@ -18,7 +18,7 @@ html {
 #keyboard {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 70%;
 }
 
 #keyboard > * {
@@ -53,7 +53,6 @@ html {
 
 .syllable {
   display: flex;
-  width: 100px;
   height: 100px;
   border: 1px solid black;
   border-radius: 10%;
